@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Forms in HTML</title>
+</head>
+<body>
+	<form>
+		<label for="Fname">FirstName</label><br>
+<input type="text" id="Fname" name="Fname" value="shivani"><br><br>
+<label for="Lname">LastName</label><br>
+<input type="text" id="Lname" name="Lname" value="Nagpure"><br><br>
+
+<label> select the car:</label>
+<select size="3" multiple >
+	<option value="Audi">Audi</option>
+	<option value="Lambo">Lambo</option>
+	<option value="Tuv">Tuv</option>
+	<option value="BMW" selected>BMW</option>
+</select><br><br>
+
+<label>Select:</label>
+<select>
+	<optgroup label="Sports">
+		<option value="Submit">Cricket</option>
+		<option value="Submit">Hockey</option>
+		<option value="Submit">Football</option>
+	</optgroup>
+	<optgroup label="Fruits">
+		<option value="Submit">Manogo</option>
+		<option value="Submit">Apple</option>
+		<option value="Submit">Banana</option>
+	</optgroup>
+</select>
+<br><br>
+
+<label>Discribe Yourself:</label>
+<textarea rows="4" cols="4"></textarea><br><br>
+
+<fieldset>
+	<legend>12th Details</legend>
+	<label for="Fname">Grade</label><br>
+<input type="text" id="Fname" name="Fname" value="A"><br><br>
+<label for="Lname">SchoolName</label><br>
+<input type="text" id="Lname" name="Lname" value="XYZ"><br><br>	
+</fieldset><br><br>
+
+<label>Search Cars</label>
+<input list="cars">
+<datalist id="cars">
+<option value="Audi">Audi</option>
+	<option value="Lambo">Lambo</option>
+	<option value="Tuv">Tuv</option>
+	<option value="BMW">BMW</option>
+</datalist><br><br>
+
+<input type="radio" name="Gender">
+<label>Male</label><br>
+<input type="radio" name="Gender">
+<label>Female</label><br>
+<input type="radio" name="Gender">
+<label>Others</label><br><br>
+
+<input type="checkbox" name="Subject">
+<label>B.Tech</label><br>
+<input type="checkbox" name="Subject" >
+<label>M.Tech</label><br>
+<input type="checkbox" name="Subject" >
+<label>P.hd</label><br><br>
+
+<input type="Submit"><br>
+<input type="Button" value="Click me">
+	
+<button></button>
+</form>
+
+</body>
+</html>

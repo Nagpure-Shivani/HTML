@@ -1,0 +1,11 @@
+Hyperlink (Navigate)
+->The<a>(anchor) tag define hyperlink which is used to link from one page to another.
+->The most important attribute in <a> element is the href attribute,Which indicates the link destination.
+->unvisted link (blue).
+->vistited link (purple).
+->Target attribute used when we open the link in next/new tab.
+->we are also link the email address.
+
+*Two types of references
+1.Relative Reference.//save a file in same folder.
+2.Absolute Reference.//save a file in different folder.

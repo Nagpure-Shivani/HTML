@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		fieldset
+		{
+			width: 350px;
+		}
+	</style>
+	
+	<!--1.required
+	2.placeholder
+	3.pattern html5 pattern(google)
+	4.multiple
+	5.autofocus
+	6.autocomplete-->
+</head>
+<body>
+<form>
+	<fieldset>
+	<legend>My New Form</legend>
+	<label>Name:</label>
+	<input type="text" required="required" placeholder="Enter Your Name" autofocus="autofocus" autocomplete="on" name="txt">
+	<br><br>
+	<label>Select your Nationality:</label>
+	<input list="nation">
+	<datalist id="nation">
+		<option value="India"></option>
+		<option value="USA"></option>
+		<option value="Srilanka"></option>
+		<option value="Canada"></option>
+	</datalist>
+	<br><br>
+	<label>Gender:</label>
+	<label>Male</label>
+	<input type="radio" name="gender">
+	<label>Female</label>
+	<input type="radio" name="gender">
+	<label>Other</label>
+	<input type="radio" name="gender">
+	<br><br>
+	<label>Upload File:</label>
+	<input type="file" multiple="multiple">
+	<br><br>
+	<label>Email:</label>
+	<input type="email" required="required" placeholder="Enter Your Email">
+	<br><br>
+	<label>Enter Alphanumeric:</label>
+	<input type="text" pattern="[a-zA-Z0-9]+" title="you cannot add space and symbols">
+	<br><br>
+	<input type="Submit">
+	</fieldset>
+</form>
+</body>
+</html>
